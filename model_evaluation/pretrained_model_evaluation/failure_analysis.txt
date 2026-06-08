@@ -1,0 +1,28 @@
+FAILURE ANALYSIS REPORT
+============================================================
+
+Model: yolo11m.pt
+Images processed: 10000
+IoU threshold: 0.5
+Confidence threshold: 0.25
+
+OVERALL METRICS
+Micro Precision : 0.7921
+Micro Recall    : 0.3400
+Micro F1        : 0.4758
+Macro Precision : 0.5504
+Macro Recall    : 0.2680
+Macro F1        : 0.3192
+
+WORST / BEST ATTRIBUTE CONDITIONS
+weather: worst=foggy (F1=0.4323), best=overcast (F1=0.5362)
+scene: worst=undefined (F1=0.3955), best=parking lot (F1=0.6179)
+timeofday: worst=night (F1=0.3632), best=undefined (F1=0.5500)
+
+LIKELY FAILURE PATTERNS
+- Small objects such as distant traffic signs are harder to detect.
+- Night and low-light scenes usually reduce recall.
+- Crowded city scenes increase false positives and localization errors.
+- COCO stop-sign predictions are only a partial proxy for BDD traffic-sign labels.
+- COCO has no 'rider' class; rider GTs are always FN unless the model fires 'person' at them.
+- COCO 'person' maps to BDD 'pedestrian' only; riders on bikes are structurally missed.

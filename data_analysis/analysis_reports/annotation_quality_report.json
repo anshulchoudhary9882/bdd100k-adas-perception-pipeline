@@ -1,0 +1,43 @@
+{
+    "summary": {
+        "total_frames": 69863,
+        "total_labels": 1941237,
+        "bbox_labels": 1286871,
+        "non_bbox_labels": 654366,
+        "empty_frames": 0,
+        "invalid_boxes": 0,
+        "tiny_boxes": 200,
+        "out_of_bounds_boxes": 0,
+        "extreme_aspect_boxes": 52,
+        "duplicate_boxes": 15
+    },
+    "quality_score": 100.0,
+    "detection_classes": [
+        "bike",
+        "bus",
+        "car",
+        "motor",
+        "person",
+        "rider",
+        "traffic light",
+        "traffic sign",
+        "train",
+        "truck"
+    ],
+    "non_detection_classes": [
+        "drivable area",
+        "lane"
+    ],
+    "class_distribution": {
+        "car": 713211,
+        "traffic sign": 239686,
+        "traffic light": 186117,
+        "person": 91349,
+        "truck": 29971,
+        "bus": 11672,
+        "bike": 7210,
+        "rider": 4517,
+        "motor": 3002,
+        "train": 136
+    }
+}

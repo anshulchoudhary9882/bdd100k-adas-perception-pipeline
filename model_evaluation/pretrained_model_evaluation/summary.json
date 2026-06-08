@@ -1,0 +1,15 @@
+{
+    "model": "yolo11m.pt",
+    "dataset_images_processed": 10000,
+    "iou_threshold": 0.5,
+    "confidence_threshold": 0.25,
+    "micro_precision": 0.7920815701244397,
+    "micro_recall": 0.34000086241281546,
+    "micro_f1": 0.47577527784796525,
+    "macro_precision_supported_classes": 0.5504435027226061,
+    "macro_recall_supported_classes": 0.2680149373707253,
+    "macro_f1_supported_classes": 0.3191808368815455,
+    "total_tp": 63079,
+    "total_fp": 16558,
+    "total_fn": 122447
+}

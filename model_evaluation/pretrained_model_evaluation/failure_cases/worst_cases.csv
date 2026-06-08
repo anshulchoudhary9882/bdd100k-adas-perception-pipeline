@@ -1,0 +1,21 @@
+image_name,weather,scene,timeofday,gt_count,pred_count,tp,fp,fn,precision,recall,f1
+b1c81faa-3df17267.jpg,clear,highway,night,4,1,0,1,4,0.0,0.0,0.0
+b1df722f-5bcc3db7.jpg,clear,highway,daytime,24,1,0,1,24,0.0,0.0,0.0
+b1e2346e-c5f98707.jpg,clear,highway,night,13,0,0,0,13,0.0,0.0,0.0
+b1e88fd2-c1e4fd2b.jpg,clear,highway,night,6,0,0,0,6,0.0,0.0,0.0
+b1eb9133-5cc75c18.jpg,overcast,highway,dawn/dusk,11,1,0,1,11,0.0,0.0,0.0
+b1f6c103-5ce1f3c6.jpg,clear,highway,night,5,1,0,1,5,0.0,0.0,0.0
+b2080dc7-f9b98a5f.jpg,clear,city street,night,15,1,0,1,15,0.0,0.0,0.0
+b20eae11-18cd8ca2.jpg,rainy,highway,night,5,0,0,0,5,0.0,0.0,0.0
+b2156f8e-72e1547c.jpg,rainy,highway,daytime,7,0,0,0,7,0.0,0.0,0.0
+b25aac57-705d50ad.jpg,clear,highway,night,10,0,0,0,10,0.0,0.0,0.0
+b26331b9-102f5d9a.jpg,clear,highway,daytime,18,0,0,0,18,0.0,0.0,0.0
+b26ba07a-38f78442.jpg,rainy,highway,night,14,0,0,0,14,0.0,0.0,0.0
+b26ba07a-c7bcbe2d.jpg,clear,highway,night,14,0,0,0,14,0.0,0.0,0.0
+b26ba07a-e4ca935c.jpg,clear,highway,night,9,1,0,1,9,0.0,0.0,0.0
+b27fdbad-ab895d86.jpg,rainy,highway,night,7,0,0,0,7,0.0,0.0,0.0
+b2a1e172-a969db88.jpg,clear,highway,night,9,0,0,0,9,0.0,0.0,0.0
+b2c5110e-09e459e9.jpg,clear,city street,night,5,0,0,0,5,0.0,0.0,0.0
+b2cda443-f7cb5ccf.jpg,rainy,city street,night,6,0,0,0,6,0.0,0.0,0.0
+b2cf78ec-6043f571.jpg,clear,highway,night,7,1,0,1,7,0.0,0.0,0.0
+b2dde0d9-1303a9ef.jpg,clear,highway,night,13,0,0,0,13,0.0,0.0,0.0

@@ -1,0 +1,16 @@
+path: bdd_yolo
+
+train: images/train
+val: images/val
+
+names:
+  0: person
+  1: rider
+  2: car
+  3: truck
+  4: bus
+  5: train
+  6: bike
+  7: bicycle
+  8: motor
+  9: traffic sign

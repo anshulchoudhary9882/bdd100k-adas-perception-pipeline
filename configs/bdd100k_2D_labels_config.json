@@ -1,0 +1,15 @@
+{
+    "allowed_detection_classes": [
+        "bike",
+        "bus",
+        "car",
+        "motor",
+        "person",
+        "rider",
+        "traffic light",
+        "traffic sign",
+        "train",
+        "truck"
+    ],
+    "num_classes": 10
+}

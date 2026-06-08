@@ -1,0 +1,12 @@
+numpy==1.26.4
+pandas==2.3.0
+opencv-python-headless==4.11.0.86
+matplotlib==3.10.3
+plotly==6.1.2
+scipy==1.15.3
+streamlit==1.45.1
+ultralytics==8.3.151
+pillow>=10.0.0
+pyyaml>=6.0.1
+torch>=2.2.0
+torchvision>=0.17.0

@@ -1,0 +1,21 @@
+image_name,weather,scene,timeofday,gt_count,pred_count,tp,fp,fn,precision,recall,f1
+c9ef0aa9-41d939af.jpg,rainy,highway,daytime,8,8,8,0,0,1.0,1.0,1.0
+c91a3cef-888fc664.jpg,clear,city street,daytime,5,5,5,0,0,1.0,1.0,1.0
+c734eb0a-9d6807cb.jpg,clear,highway,daytime,6,6,6,0,0,1.0,1.0,1.0
+c6db7763-bd0a64d2.jpg,clear,highway,daytime,4,4,4,0,0,1.0,1.0,1.0
+c64dd3d9-ed092171.jpg,clear,city street,daytime,7,7,7,0,0,1.0,1.0,1.0
+c5c9ead6-dab2dae6.jpg,clear,city street,daytime,4,4,4,0,0,1.0,1.0,1.0
+c586b898-17285cc9.jpg,clear,city street,night,4,4,4,0,0,1.0,1.0,1.0
+c4fa3b0a-29b96446.jpg,clear,city street,night,7,7,7,0,0,1.0,1.0,1.0
+c3acda34-73acb8f3.jpg,undefined,city street,daytime,6,6,6,0,0,1.0,1.0,1.0
+c372b0f2-81abd5d1.jpg,undefined,city street,daytime,8,8,8,0,0,1.0,1.0,1.0
+c31a04de-1c417568.jpg,clear,highway,night,4,4,4,0,0,1.0,1.0,1.0
+c2f25682-59bb9423.jpg,overcast,highway,daytime,6,6,6,0,0,1.0,1.0,1.0
+bdae005f-d0bb4101.jpg,overcast,highway,daytime,4,4,4,0,0,1.0,1.0,1.0
+ba2e8c76-d7ca505e.jpg,overcast,residential,daytime,12,12,12,0,0,1.0,1.0,1.0
+b97b9ee8-0dfbbe35.jpg,undefined,residential,daytime,4,4,4,0,0,1.0,1.0,1.0
+b8ecdc10-763b27b8.jpg,undefined,highway,daytime,5,5,5,0,0,1.0,1.0,1.0
+b62279e2-0a5adb4c.jpg,partly cloudy,residential,daytime,5,5,5,0,0,1.0,1.0,1.0
+b6219281-861a5ba7.jpg,partly cloudy,city street,daytime,5,5,5,0,0,1.0,1.0,1.0
+b3a84a0f-61844c69.jpg,snowy,residential,daytime,8,8,8,0,0,1.0,1.0,1.0
+b25fdb41-4644e3f7.jpg,clear,city street,daytime,4,4,4,0,0,1.0,1.0,1.0

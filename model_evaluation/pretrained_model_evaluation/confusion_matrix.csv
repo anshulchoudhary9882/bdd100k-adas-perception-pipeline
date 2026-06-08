@@ -1,0 +1,11 @@
+gt/pred,person,rider,car,truck,bus,train,bike,motor,traffic light,traffic sign
+person,5495,0,24,1,0,0,0,0,1,0
+rider,310,0,4,1,0,0,2,3,0,0
+car,45,0,49921,1075,196,2,0,1,4,0
+truck,0,0,390,1932,95,1,0,0,2,0
+bus,1,0,117,156,678,1,0,0,1,0
+train,0,0,1,0,1,2,0,0,0,0
+bike,55,0,5,0,0,0,272,13,0,0
+motor,9,0,22,0,0,0,7,147,0,0
+traffic light,3,0,4,1,0,0,0,0,4419,0
+traffic sign,2,0,31,0,1,0,0,0,181,213
