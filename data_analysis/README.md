@@ -61,8 +61,9 @@ The project is fully containerized. No local Python environment or package insta
 ---
 
 ## Step 1: Build the Docker Image
+Before running this make sure docker desktop to be running.
+Navigate to the repository root containing docker file and execute:
 
-Navigate to the repository root and execute:
 
 ```bash
 docker build -t bdd100k-analytics .
