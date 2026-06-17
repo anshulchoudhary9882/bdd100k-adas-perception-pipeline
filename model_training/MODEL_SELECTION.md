@@ -1,8 +1,6 @@
 # Model Selection and Architecture Analysis
 
 
-
-
 Since the dataset represents real-world driving environments, the selected detector must satisfy the following requirements:
 
 * High detection accuracy across diverse traffic scenarios
@@ -713,93 +711,73 @@ YOLO11 introduces meaningful architectural improvements over YOLOv8 through the 
 
 For automotive perception applications, YOLO11 offers an excellent balance between **accuracy, computational efficiency, scalability, and deployment readiness**, making it a strong candidate for next-generation ADAS perception systems.
 
-# Architectural Advantages for BDD100K
-
-The BDD100K dataset contains several characteristics that align well with YOLO11m.
-
-| Dataset Challenge | YOLO11m Capability |
-|------------------|-------------------|
-| Small traffic lights | Multi-scale detection |
-| Distant pedestrians | High-resolution prediction layers |
-| Dense urban traffic | Efficient feature aggregation |
-| Occluded vehicles | Rich semantic feature extraction |
-| Night driving | Robust learned representations |
-| Large scale variation | Multi-level feature fusion |
-| Real-time requirements | Optimized single-stage architecture |
-
 ---
-
-# Training Strategy
-
-
-The objective of this project was to demonstrate a complete perception pipeline rather than maximize leaderboard performance.
-
-The workflow includes:
-
-- Dataset exploration and quality assessment
-- Annotation parsing and validation
-- Data preprocessing and conversion
-- Model selection and justification
-- Training and validation
-- Performance analysis
-- Visualization and reporting
-
-This approach reflects the workflow commonly followed in industrial perception teams, where data quality, reproducibility, and engineering robustness are often more important than marginal benchmark improvements.
-
-The successful reduction in training and validation losses across epochs demonstrates that:
-
-* Dataset preparation was correct
-* Annotation conversion was successful
-* Model architecture was functioning correctly
-* Optimization settings were effective
-
----
-
-# Deployment Advantages
-
-One of the primary reasons for selecting YOLO11m is its deployment flexibility.
-
-YOLO11m supports:
-
-* TensorRT deployment
-* ONNX export
-* OpenVINO optimization
-* NVIDIA Jetson platforms
-* Edge AI accelerators
-
-This makes it highly suitable for real-world ADAS and automotive perception applications.
-
-Examples include:
-
-* Forward Collision Warning (FCW)
-* Lane Change Assist (LCA)
-* Blind Spot Detection (BSD)
-* Smart Turn Assist (STA)
-* Surround View Perception Systems
-
----
-
-# Future Improvements
-
-
-Potential directions for improving detection performance include:
-
-- Class-balanced sampling to address long-tail class imbalance
-- Copy-Paste augmentation for rare classes such as rider and train
-- Hyperparameter optimization using Bayesian search
-- Larger input resolutions for improved small-object detection
-- Knowledge distillation for efficient deployment
-- Quantization-aware training for edge deployment
-- Temporal fusion using video sequences
-- Multi-sensor fusion with radar or LiDAR
-
-These enhancements are representative of techniques commonly employed in production ADAS perception systems.
 
 
 ---
 
-# Conclusion
+# References
 
-YOLO11m was selected because it provides an effective balance between detection accuracy, computational efficiency, and deployment practicality.
+This architecture analysis was developed based on official Ultralytics documentation, YOLO source code analysis, and the following research paper:
 
-Its architecture is well suited to the challenges presented by BDD100K and aligns closely with the requirements of modern automotive perception systems. The model successfully demonstrates a complete object detection pipeline while maintaining a clear path toward real-time deployment on embedded platforms such as NVIDIA Jetson devices and future integration into ADAS perception stacks.
+[1] Hidayatullah, P., Syakrani, N., Sholahuddin, M. R., Gelar, T., & Tubagus, R. (2026).
+
+**"YOLOv8 to YOLO11 Performance Benchmark and Comprehensive Architectural Comparative Review."**
+
+*Jurnal RESTI (Rekayasa Sistem dan Teknologi Informasi), Vol. 10, No. 2, pp. 341–354.*
+
+DOI: https://doi.org/10.29207/resti.v10i2.6598
+
+This paper provided valuable insights into:
+
+- YOLO11 overall architecture
+- C3k2 block design
+- C2PSA attention mechanism
+- SPPF integration
+- Architectural differences between YOLOv8, YOLOv9, YOLOv10, and YOLO11
+- Design motivations behind recent YOLO improvements
+
+Additional references:
+
+[2] Ultralytics Documentation  
+https://docs.ultralytics.com
+
+[3] Ultralytics YOLO GitHub Repository  
+https://github.com/ultralytics/ultralytics
+
+[4] YOLO11 Model Configuration (yolo11.yaml)  
+https://github.com/ultralytics/ultralytics/tree/main/ultralytics/cfg/models/11
+
+---
+
+# Credits
+
+The architecture diagrams, implementation details, and block-level explanations presented in this report are derived from a combination of:
+
+- Official Ultralytics documentation
+- Ultralytics source code analysis
+- The comparative review paper by Hidayatullah et al. (2026)
+
+The explanations and ADAS-specific interpretations were adapted and expanded for educational and research purposes within this project.
+
+---
+
+# Citation
+
+If you use this architecture summary in academic work, please cite:
+
+```bibtex
+@article{hidayatullah2026yolo,
+  title={YOLOv8 to YOLO11 Performance Benchmark and Comprehensive Architectural Comparative Review},
+  author={Hidayatullah, Priyanto and Syakrani, Nurjannah and Sholahuddin, Muhammad Rizqi and Gelar, Trisna and Tubagus, Refdinal},
+  journal={Jurnal RESTI (Rekayasa Sistem dan Teknologi Informasi)},
+  volume={10},
+  number={2},
+  pages={341--354},
+  year={2026},
+  doi={10.29207/resti.v10i2.6598}
+}
+```
+
+
+

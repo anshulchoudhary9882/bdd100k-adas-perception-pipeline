@@ -61,7 +61,7 @@ The project is fully containerized. No local Python environment or package insta
 ---
 
 ## Step 1: Build the Docker Image
-Before running this make sure docker desktop to be running.
+Ensure Docker Desktop is running on your system before proceeding.
 Navigate to the repository root containing docker file and execute:
 
 
