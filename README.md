@@ -65,8 +65,9 @@ Perform qualitative analysis through:
 - Best-case examples
 - Failure-case examples
 - Failure pattern clustering
-
+  
 A detailed discussion of model evaluation is provided in `EVALUATION.md`.
+
 ---
 
 
