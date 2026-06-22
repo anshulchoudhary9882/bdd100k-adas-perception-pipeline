@@ -2,9 +2,9 @@
 
 ## Overview
 
-This section evaluates the performance of the **YOLO11m** object detection model on the **BDD100K validation dataset**. The objective is to quantify model performance, analyze failure cases, visualize prediction quality, and identify potential improvements.
+This section evaluates the performance of the pretrained **YOLO11m** object detection model on the **BDD100K validation dataset**. The objective is to quantify model performance, analyze failure cases, visualize prediction quality, and identify potential improvements.
 
-The evaluation combines both **quantitative** and **qualitative** analysis as required by the assignment.
+The evaluation combines both **quantitative** and **qualitative** analysis.
 
 ---
 
@@ -37,9 +37,7 @@ The following metrics were chosen because they provide a comprehensive assessmen
 
 Measures how many predicted objects are correct.
 
-\[
-Precision = \frac{TP}{TP + FP}
-\]
+Precision = TP / (TP + FP)
 
 High precision reduces false alarms, which is important in ADAS systems.
 
@@ -47,9 +45,7 @@ High precision reduces false alarms, which is important in ADAS systems.
 
 Measures how many real objects are successfully detected.
 
-\[
-Recall = \frac{TP}{TP + FN}
-\]
+Recall = TP / (TP + FN) (where TP = true positives, FN = false negatives)
 
 High recall is critical for safety because missed objects can lead to dangerous situations.
 
@@ -57,9 +53,9 @@ High recall is critical for safety because missed objects can lead to dangerous 
 
 Balances precision and recall.
 
-\[
-F1 = \frac{2 \times Precision \times Recall}{Precision + Recall}
-\]
+$$
+F1 = \frac{2 \times \text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}}
+$$
 
 F1 Score was selected because both false positives and false negatives are important in autonomous driving applications.
 
