@@ -22,6 +22,7 @@ Key objectives:
 - Analyze weather, scene, and time-of-day attributes
 - Investigate train vs validation split consistency
 - Discover challenging samples and edge cases
+
 A detailed discussion of data analysis is provided in `ANALYSIS.md`.
 
 ---
@@ -40,6 +41,7 @@ Reasons for selection:
 - Robust performance on diverse object categories
 - Suitable for real-time ADAS applications
 - Easy deployment to TensorRT and embedded platforms
+
 A detailed discussion of model selection and architecture is provided in `MODEL_SELECTION.md`.
 
 ---
@@ -63,6 +65,7 @@ Perform qualitative analysis through:
 - Best-case examples
 - Failure-case examples
 - Failure pattern clustering
+
 A detailed discussion of model evaluation is provided in `EVALUATION.md`.
 ---
 
