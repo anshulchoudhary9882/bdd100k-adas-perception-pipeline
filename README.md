@@ -112,7 +112,7 @@ making it highly suitable for ADAS perception research.
 ## Clone Repository
 
 ```bash
-git clone https://github.com/<your_username>/bdd100k-adas-perception-pipeline.git
+git clone https://github.com/anshulchoudhary9882/bdd100k-adas-perception-pipeline.git
 
 cd bdd100k-adas-perception-pipeline
 ```
