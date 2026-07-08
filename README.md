@@ -40,6 +40,7 @@ Reasons for selection:
 - Robust performance on diverse object categories
 - Suitable for real-time ADAS applications
 - Easy deployment to TensorRT and embedded platforms
+
 A detailed discussion of model selection and architecture is provided in `MODEL_SELECTION.md`.
 
 ---
@@ -198,6 +199,10 @@ evaluation/
 ├── failure_cases/
 └── attribute_analysis/
 ```
+
+## Detection Demo
+
+![YOLO11 Detection](model_evaluation/pretrained_model_evaluation/yolo11_detection.gif)
 
 ---
 
